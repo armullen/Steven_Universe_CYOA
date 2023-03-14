@@ -1,5 +1,6 @@
 body{
     background-color: aqua;
+    
 }
 h1{
     color: yellow;
@@ -13,7 +14,7 @@ h3{
     background: orangered;
     color: white;
     font-family: 'Libre Baskerville', serif;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 25px;
     width: 50%;
     text-align: center;
@@ -31,11 +32,12 @@ h3{
     text-align: center;
 
 }
-#openingPage{
+.openingPage{
     font-size: 50px;
     display: flex;
-    flex: wrap;
+    flex-direction: column;
     align-content: stretch;
+    outline: 10px solid yellow;    
 }
 #titlePicture {
     width: 50vh;
@@ -43,7 +45,6 @@ h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
 #openingPicture{
     width: 50vh;
@@ -53,13 +54,9 @@ h3{
     margin-right: auto;
     width: 75%;
 }
-#instructions {
-    border: solid black 2px;
-    
-}
-button{
-    color: black;
-    background-color: yellow;
-    width: 100px;
-    height: 100px;
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
 }
