@@ -10,6 +10,17 @@ h3{
     color: salmon;
     font-family: 'Fredoka One', cursive, sans-serif;
 }
+h5{
+    color: black;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 #title{
     background: orangered;
     color: white;
@@ -21,6 +32,8 @@ h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 #episode{
     color: white;
@@ -30,6 +43,8 @@ h3{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 50;
 
 }
 .openingPage{
@@ -37,14 +52,17 @@ h3{
     display: flex;
     flex-direction: column;
     align-content: stretch;
-    outline: 10px solid yellow;    
+    outline: 10px solid yellow;  
+    border-radius: 25px;  
 }
 #titlePicture {
-    width: 50vh;
-    height: 50vh;
+    width: 35vh;
+    height: 35vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 #openingPicture{
     width: 50vh;
@@ -53,10 +71,20 @@ h3{
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    margin-top: 20;
 }
 button {
-    border: none;
-    margin: 0;
-    padding: 0;
-    background: transparent;
+    width: 120px;
+    height: 60px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 0;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: bold;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
 }
